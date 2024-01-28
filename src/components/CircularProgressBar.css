@@ -1,0 +1,29 @@
+.circularProgressContainer {
+  width: 100px;
+  height: 100px;
+}
+
+.circularProgress {
+  width: 100%;
+  height: 100%;
+}
+
+.progressBarBackground {
+  fill: none;
+  stroke: #e6e6e6;
+  stroke-width: 8;
+}
+
+.progressBar {
+  fill: none;
+  stroke: #228820;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-dasharray: 283;
+  transition: stroke-dashoffset 0.3s;
+}
+
+.progressText {
+  font-size: 20px;
+  fill: Black;
+}
